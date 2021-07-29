@@ -1,5 +1,5 @@
 {
-    "name": "aboutyou/storefront-api",
+    "name": "aboutyou-cloud/storefront-api",
     "description": "AboutYou Cloud StorefrontAPI SDK",
     "type": "library",
     "require": {
