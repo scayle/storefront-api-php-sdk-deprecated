@@ -8,7 +8,7 @@ PHP 5.6.0 and later.
 
 You can install the SDK via Composer. Run the following command:
 
-`composer require aboutyou/storefront-api`
+`composer require aboutyou-cloud/storefront-api`
 
 ## Documentation
 
