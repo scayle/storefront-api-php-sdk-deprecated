@@ -12,5 +12,5 @@ You can install the SDK via Composer. Run the following command:
 
 ## Documentation
 
-See the [PHP SDK docs](https://resources.aboutyou.cloud/en/dev/storefront/introduction).
+See the [PHP SDK docs](https://scayle.dev/en/dev/storefront-api/introduction).
 
