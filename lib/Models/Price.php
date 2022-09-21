@@ -6,9 +6,10 @@ namespace AboutYou\Cloud\StorefrontApi\Models;
  * @property AppliedReduction[] $appliedReductions 
  * @property string $currencyCode The currency of the price.
  * @property array $reference 
- * @property Tax $tax 
+ * @property array $tax 
  * @property int $withoutTax 
  * @property int $withTax 
+ * @property int $recommendedRetailPrice 
  */
 class Price extends ApiObject
 {

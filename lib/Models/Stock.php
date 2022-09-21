@@ -3,8 +3,7 @@
 namespace AboutYou\Cloud\StorefrontApi\Models;
 
 /**
- * @property CustomData $customData 
- * @property DeliveryForecast $deliveryForecast 
+ * @property array $deliveryForecast 
  * @property bool $isSellableWithoutStock 
  * @property int $quantity 
  * @property int $warehouseId 
@@ -17,7 +16,7 @@ class Stock extends ApiObject
     ];
 
     protected $classMap = [
-		'customData' => \AboutYou\Cloud\StorefrontApi\Models\CustomData::class,
+		'customData' => \AboutYou\Cloud\StorefrontApi\Models\Map::class,
 		'deliveryForecast' => \AboutYou\Cloud\StorefrontApi\Models\DeliveryForecast::class,
     ];
 

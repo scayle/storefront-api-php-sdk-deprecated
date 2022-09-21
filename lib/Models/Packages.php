@@ -11,6 +11,7 @@ class Packages extends ApiObject
     ];
 
     protected $classMap = [
+		'deliveryDate' => \AboutYou\Cloud\StorefrontApi\Models\DeliveryDate::class,
     ];
 
     protected $collectionClassMap = [

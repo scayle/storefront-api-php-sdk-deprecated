@@ -3,9 +3,10 @@
 namespace AboutYou\Cloud\StorefrontApi\Models;
 
 /**
- * @property int $total 
+ * @property int $withTax 
+ * @property float $relativeDifferenceToPrice 
  */
-class OffsetPagination extends ApiObject
+class LowestPriorPrice extends ApiObject
 {
     protected $defaultValues = [
         

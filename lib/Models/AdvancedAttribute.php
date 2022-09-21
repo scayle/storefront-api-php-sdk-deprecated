@@ -7,7 +7,7 @@ namespace AboutYou\Cloud\StorefrontApi\Models;
  * @property string $key 
  * @property string $label 
  * @property string $type 
- * @property AdvancedAttributeValue[] $values 
+ * @property array $values 
  */
 class AdvancedAttribute extends ApiObject
 {
@@ -19,7 +19,6 @@ class AdvancedAttribute extends ApiObject
     ];
 
     protected $collectionClassMap = [
-        'values' => \AboutYou\Cloud\StorefrontApi\Models\AdvancedAttributeValue::class,
     ];
 
     protected $collection2dClassMap = [

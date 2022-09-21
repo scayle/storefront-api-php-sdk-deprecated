@@ -3,17 +3,8 @@
 namespace AboutYou\Cloud\StorefrontApi\Models;
 
 /**
- * @property int $availableQuantity 
- * @property CustomData $customData 
- * @property DeliveryForecast $deliveryForecast 
- * @property DisplayData $displayData 
- * @property string $key 
- * @property int $packageId 
- * @property BasketItemPrice $price 
- * @property Product $product 
- * @property int $quantity 
- * @property string $status 
- * @property Variant $variant 
+ * @property Cost $cost 
+ * @property array[] $items 
  */
 class BasketItem extends ApiObject
 {
@@ -22,7 +13,7 @@ class BasketItem extends ApiObject
     ];
 
     protected $classMap = [
-		'customData' => \AboutYou\Cloud\StorefrontApi\Models\CustomData::class,
+		'customData' => \AboutYou\Cloud\StorefrontApi\Models\Map::class,
 		'deliveryForecast' => \AboutYou\Cloud\StorefrontApi\Models\DeliveryForecast::class,
 		'displayData' => \AboutYou\Cloud\StorefrontApi\Models\DisplayData::class,
 		'price' => \AboutYou\Cloud\StorefrontApi\Models\BasketItemPrice::class,

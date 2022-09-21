@@ -12,6 +12,7 @@ namespace AboutYou\Cloud\StorefrontApi\Models;
  * @property string $referenceKey 
  * @property string $firstLiveAt Identifies the first time the variant went live
  * @property Stock $stock 
+ * @property array<string, CustomData> $customData 
  * @property Timestamp $createdAt 
  * @property Timestamp $updatedAt 
  */

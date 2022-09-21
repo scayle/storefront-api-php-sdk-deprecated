@@ -3,8 +3,8 @@
 namespace AboutYou\Cloud\StorefrontApi\Models;
 
 /**
- * @property AttributeFilter[] $attributeFilters 
- * @property BrandSuggestion $brand 
+ * @property array[] $attributeFilters 
+ * @property array $brand 
  * @property Category $category 
  * @property string $primaryMatch 
  * @property int $productCount 

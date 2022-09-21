@@ -3,9 +3,13 @@
 namespace AboutYou\Cloud\StorefrontApi\Models;
 
 /**
- * @property int $total 
+ * @property float $floatData 
+ * @property array[] $localizedJson 
+ * @property array[] $localizedString 
+ * @property string $nonLocalizedJson 
+ * @property string $nonLocalizedString 
  */
-class OffsetPagination extends ApiObject
+class BrandCustomData extends ApiObject
 {
     protected $defaultValues = [
         

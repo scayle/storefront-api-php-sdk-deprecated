@@ -3,9 +3,8 @@
 namespace AboutYou\Cloud\StorefrontApi\Models;
 
 /**
- * @property int $total 
  */
-class OffsetPagination extends ApiObject
+class Navigation extends ApiObject
 {
     protected $defaultValues = [
         

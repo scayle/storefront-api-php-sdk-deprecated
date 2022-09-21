@@ -6,7 +6,9 @@ namespace AboutYou\Cloud\StorefrontApi\Models;
  * @property int $categoryId 
  * @property bool $categoryHidden 
  * @property string $categoryName 
- * @property CategoryProperty[] $categoryProperties 
+ * @property array $categoryProperties 
+ * @property array $shopLevelCustomData 
+ * @property array $countryLevelCustomData 
  * @property string $categoryUrl 
  * @property string $categorySlug 
  */

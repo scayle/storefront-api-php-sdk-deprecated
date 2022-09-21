@@ -4,7 +4,8 @@ namespace AboutYou\Cloud\StorefrontApi\Models;
 
 /**
  * @property string $key 
- * @property string $key2 
+ * @property string $value 
+ * @property string $pricePromotionKey Adjust variant price based on the specified `pricePromotionKey`. If the variant does not have a matching price promotion, the default price is returned.
  */
 class CustomData extends ApiObject
 {

@@ -3,9 +3,13 @@
 namespace AboutYou\Cloud\StorefrontApi\Models;
 
 /**
- * @property bool $isActive 
+ * @property int $id 
+ * @property string $name 
  * @property string $key 
- * @property array $reduction 
+ * @property string $description 
+ * @property int $reduction 
+ * @property string $start_at 
+ * @property string $end_at 
  */
 class Campaign extends ApiObject
 {

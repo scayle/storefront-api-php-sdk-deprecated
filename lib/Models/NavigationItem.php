@@ -5,7 +5,7 @@ namespace AboutYou\Cloud\StorefrontApi\Models;
 /**
  * @property int $id 
  * @property string[] $assets 
- * @property string[] $languages 
+ * @property string $name 
  * @property string $type 
  * @property string $visibleFrom 
  * @property string $visibleTo 

@@ -4,7 +4,6 @@ namespace AboutYou\Cloud\StorefrontApi\Models;
 
 /**
  * @property BrandOrCategorySuggestion $brandOrCategorySuggestion 
- * @property ProductSuggestion $productSuggestion 
  * @property float $score 
  * @property string $type 
  */

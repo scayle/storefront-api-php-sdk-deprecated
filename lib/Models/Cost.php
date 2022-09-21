@@ -1,6 +1,6 @@
 <?php
 
-namespace AboutYou\Cloud\AdminApi\Models;
+namespace AboutYou\Cloud\StorefrontApi\Models;
 
 /**
  * @property AppliedReduction[] $appliedReductions 

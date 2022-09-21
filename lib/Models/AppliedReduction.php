@@ -3,7 +3,7 @@
 namespace AboutYou\Cloud\StorefrontApi\Models;
 
 /**
- * @property AppliedReductionAmount $amount 
+ * @property array $amount 
  * @property string $category 
  * @property string $type 
  */

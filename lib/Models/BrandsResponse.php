@@ -3,9 +3,10 @@
 namespace AboutYou\Cloud\StorefrontApi\Models;
 
 /**
- * @property int $total 
+ * @property Brand[] $entities 
+ * @property Pagination|OffsetPagination $pagination 
  */
-class OffsetPagination extends ApiObject
+class BrandsResponse extends ApiObject
 {
     protected $defaultValues = [
         
@@ -15,6 +16,7 @@ class OffsetPagination extends ApiObject
     ];
 
     protected $collectionClassMap = [
+        'entities' => \AboutYou\Cloud\StorefrontApi\Models\Brand::class,
     ];
 
     protected $collection2dClassMap = [

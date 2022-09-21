@@ -3,30 +3,25 @@
 namespace AboutYou\Cloud\StorefrontApi\Models;
 
 /**
- * @property string $key 
- * @property int $packageId 
- * @property int $quantity 
- * @property string $status 
- * @property Product $product 
- * @property Variant $variant 
- * @property string $productId 
- * @property string $masterKey 
- * @property string $variantId 
+ * @property int $shopId 
+ * @property string $name 
+ * @property array<string, CustomData> $shopCustomData 
+ * @property ShopProperties[] $properties 
  * @property array<string, CustomData> $customData 
+ * @property string $country 
  */
-class WishlistItem extends ApiObject
+class ShopConfiguration extends ApiObject
 {
     protected $defaultValues = [
         
     ];
 
     protected $classMap = [
-		'product' => \AboutYou\Cloud\StorefrontApi\Models\Product::class,
-		'variant' => \AboutYou\Cloud\StorefrontApi\Models\Variant::class,
 		'customData' => \AboutYou\Cloud\StorefrontApi\Models\Map::class,
     ];
 
     protected $collectionClassMap = [
+        'properties' => \AboutYou\Cloud\StorefrontApi\Models\ShopProperties::class,
     ];
 
     protected $collection2dClassMap = [

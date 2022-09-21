@@ -3,7 +3,7 @@
 namespace AboutYou\Cloud\StorefrontApi\Models;
 
 /**
- * @property string $fuzziness The fuzziness parameter can enable some typo tolerance. Available values are 0, 1, 2, and auto. Defaults to auto. Note: The value set in the Commerce Suite Panel will not impact this search.
+ * @property string $fuzziness The fuzziness parameter can enable some typo tolerance. Available values are 0, 1, 2, and auto. Defaults to auto. Note: The value set in the SCAYLE  Panel will not impact this search.
  * @property SizeItem[] $sizes It accepts an array of objects with the keys `shopSizeRun` and `categoryShopFilterSizes`, which can boost results by the matching attribute "shopSizeRun". It can contain `BrandOrCategory` and `ProductSuggestions` as suggestions.
  * @property int[] $likedBrands The `likedBrands` parameter can boost and adjust results by matching the given brand IDs.
  * @property int $categoryId The `categoryId` parameter can filter by category ID.

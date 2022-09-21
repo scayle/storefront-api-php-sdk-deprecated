@@ -15,7 +15,7 @@ namespace AboutYou\Cloud\StorefrontApi\Models;
  * @property string $path 
  * @property array[] $properties 
  * @property int[] $rootlineIds 
- * @property string $slug 
+ * @property string $slug short text to describe the current category (usable, for example, in URLs as `fashion`).
  * @property string[] $supportedFilter 
  */
 class CategoryChild extends ApiObject

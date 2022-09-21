@@ -3,9 +3,10 @@
 namespace AboutYou\Cloud\StorefrontApi\Models;
 
 /**
- * @property int $total 
+ * @property string $key 
+ * @property string $value 
  */
-class OffsetPagination extends ApiObject
+class ShopProperties extends ApiObject
 {
     protected $defaultValues = [
         

@@ -7,14 +7,14 @@ use Psr\Http\Client\ClientExceptionInterface;
 
 /**
  */
-class FilterService extends AbstractService
+class BrandService extends AbstractService
 {
 	/**
 	 * Description
 	 *
 	 * @param array $options additional options like limit or filters
 	 *
-	 * @return \AboutYou\Cloud\StorefrontApi\Models\FilterCollection
+	 * @return \AboutYou\Cloud\StorefrontApi\Models\BrandsResponse
      * @throws ClientExceptionInterface
      * @throws ApiErrorException
 	 */
@@ -22,24 +22,24 @@ class FilterService extends AbstractService
 	 {
          $combinedOptions = $options;
 
-		 return $this->request('get', 'filters', $combinedOptions, \AboutYou\Cloud\StorefrontApi\Models\FilterCollection::class);
+		 return $this->request('get', 'brands', $combinedOptions, \AboutYou\Cloud\StorefrontApi\Models\BrandsResponse::class);
      }
 
 	/**
 	 * Description
 	 *
-	 * @param string $groupName
+	 * @param int $brandId
 	 * @param array $options additional options like limit or filters
 	 *
-	 * @return \AboutYou\Cloud\StorefrontApi\Models\FilterCollection
+	 * @return \AboutYou\Cloud\StorefrontApi\Models\BrandsResponse
      * @throws ClientExceptionInterface
      * @throws ApiErrorException
 	 */
-	 public function getValues($groupName, $options = [])
+	 public function getById($brandId, $options = [])
 	 {
          $combinedOptions = $options;
 
-		 return $this->request('get', $this->resolvePath('filters/%s/values', $groupName), $combinedOptions, \AboutYou\Cloud\StorefrontApi\Models\FilterCollection::class);
+		 return $this->request('get', $this->resolvePath('brand/%s', $brandId), $combinedOptions, \AboutYou\Cloud\StorefrontApi\Models\BrandsResponse::class);
      }
 
 }
