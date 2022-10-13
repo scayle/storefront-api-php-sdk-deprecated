@@ -23,7 +23,7 @@ class WishlistItem extends ApiObject
     protected $classMap = [
 		'product' => \AboutYou\Cloud\StorefrontApi\Models\Product::class,
 		'variant' => \AboutYou\Cloud\StorefrontApi\Models\Variant::class,
-		'customData' => \AboutYou\Cloud\StorefrontApi\Models\Map::class,
+		'customData' => \AboutYou\Cloud\StorefrontApi\Models\CustomData::class,
     ];
 
     protected $collectionClassMap = [

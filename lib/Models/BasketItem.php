@@ -13,7 +13,7 @@ class BasketItem extends ApiObject
     ];
 
     protected $classMap = [
-		'customData' => \AboutYou\Cloud\StorefrontApi\Models\Map::class,
+		'customData' => \AboutYou\Cloud\StorefrontApi\Models\CustomData::class,
 		'deliveryForecast' => \AboutYou\Cloud\StorefrontApi\Models\DeliveryForecast::class,
 		'displayData' => \AboutYou\Cloud\StorefrontApi\Models\DisplayData::class,
 		'price' => \AboutYou\Cloud\StorefrontApi\Models\BasketItemPrice::class,

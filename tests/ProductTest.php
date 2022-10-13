@@ -20,6 +20,7 @@ class ProductTest extends BaseApiTestCase
             $this->assertPropertyHasTheCorrectType($responseEntity, 'definingAttributes', \AboutYou\Cloud\StorefrontApi\Models\DefiningAttribute::class);
             $this->assertPropertyHasTheCorrectType($responseEntity, 'images', \AboutYou\Cloud\StorefrontApi\Models\Image::class);
             $this->assertPropertyHasTheCorrectType($responseEntity, 'priceRange', \AboutYou\Cloud\StorefrontApi\Models\PriceRange::class);
+            $this->assertPropertyHasTheCorrectType($responseEntity, 'reductionRange', \AboutYou\Cloud\StorefrontApi\Models\ReductionRange::class);
             $this->assertPropertyHasTheCorrectType($responseEntity, 'lowestPriorPrice', \AboutYou\Cloud\StorefrontApi\Models\LowestPriorPrice::class);
             $this->assertPropertyHasTheCorrectType($responseEntity, 'siblings', \AboutYou\Cloud\StorefrontApi\Models\Product::class);
             $this->assertPropertyHasTheCorrectType($responseEntity, 'baseCategories', \AboutYou\Cloud\StorefrontApi\Models\BaseCategory::class);
@@ -43,6 +44,7 @@ class ProductTest extends BaseApiTestCase
             $this->assertPropertyHasTheCorrectType($responseEntity, 'definingAttributes', \AboutYou\Cloud\StorefrontApi\Models\DefiningAttribute::class);
             $this->assertPropertyHasTheCorrectType($responseEntity, 'images', \AboutYou\Cloud\StorefrontApi\Models\Image::class);
             $this->assertPropertyHasTheCorrectType($responseEntity, 'priceRange', \AboutYou\Cloud\StorefrontApi\Models\PriceRange::class);
+            $this->assertPropertyHasTheCorrectType($responseEntity, 'reductionRange', \AboutYou\Cloud\StorefrontApi\Models\ReductionRange::class);
             $this->assertPropertyHasTheCorrectType($responseEntity, 'lowestPriorPrice', \AboutYou\Cloud\StorefrontApi\Models\LowestPriorPrice::class);
             $this->assertPropertyHasTheCorrectType($responseEntity, 'siblings', \AboutYou\Cloud\StorefrontApi\Models\Product::class);
             $this->assertPropertyHasTheCorrectType($responseEntity, 'baseCategories', \AboutYou\Cloud\StorefrontApi\Models\BaseCategory::class);

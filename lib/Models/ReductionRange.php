@@ -3,16 +3,10 @@
 namespace AboutYou\Cloud\StorefrontApi\Models;
 
 /**
- * @property int $id 
- * @property string $name 
- * @property string $key 
- * @property string $description 
- * @property int $reduction 
- * @property array $customData 
- * @property string $start_at 
- * @property string $end_at 
+ * @property float $min 
+ * @property float $max 
  */
-class Campaign extends ApiObject
+class ReductionRange extends ApiObject
 {
     protected $defaultValues = [
         

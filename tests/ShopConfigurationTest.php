@@ -14,7 +14,7 @@ class ShopConfigurationTest extends BaseApiTestCase
         $this->assertInstanceOf(\AboutYou\Cloud\StorefrontApi\Models\ShopConfiguration::class, $responseEntity);
         $this->assertJsonStringEqualsJsonString(json_encode($expectedResponseJson), $responseEntity->toJson());
 
-            $this->assertPropertyHasTheCorrectType($responseEntity, 'customData', \AboutYou\Cloud\StorefrontApi\Models\Map::class);
+            $this->assertPropertyHasTheCorrectType($responseEntity, 'customData', \AboutYou\Cloud\StorefrontApi\Models\CustomData::class);
             $this->assertPropertyHasTheCorrectType($responseEntity, 'properties', \AboutYou\Cloud\StorefrontApi\Models\ShopProperties::class);
 
 

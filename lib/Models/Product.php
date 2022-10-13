@@ -18,6 +18,7 @@ namespace AboutYou\Cloud\StorefrontApi\Models;
  * @property string $firstLiveAt Identifies the first time one of the products variants went live
  * @property array $pricePromotionInfo 
  * @property PriceRange $priceRange 
+ * @property ReductionRange $reductionRange 
  * @property LowestPriorPrice $lowestPriorPrice 
  * @property string $referenceKey 
  * @property int[] $searchCategoryIds 
@@ -35,6 +36,7 @@ class Product extends ApiObject
     protected $classMap = [
 		'definingAttributes' => \AboutYou\Cloud\StorefrontApi\Models\DefiningAttribute::class,
 		'priceRange' => \AboutYou\Cloud\StorefrontApi\Models\PriceRange::class,
+		'reductionRange' => \AboutYou\Cloud\StorefrontApi\Models\ReductionRange::class,
 		'lowestPriorPrice' => \AboutYou\Cloud\StorefrontApi\Models\LowestPriorPrice::class,
     ];
 

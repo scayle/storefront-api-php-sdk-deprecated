@@ -17,7 +17,7 @@ class ShopConfiguration extends ApiObject
     ];
 
     protected $classMap = [
-		'customData' => \AboutYou\Cloud\StorefrontApi\Models\Map::class,
+		'customData' => \AboutYou\Cloud\StorefrontApi\Models\CustomData::class,
     ];
 
     protected $collectionClassMap = [
