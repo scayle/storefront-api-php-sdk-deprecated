@@ -1,4 +1,4 @@
-# About You Cloud Storefront API PHP SDK
+# About You Cloud Storefront API PHP SDK (Deprecated)
 
 ## Requirements
 
